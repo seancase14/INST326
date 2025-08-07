@@ -4,3 +4,5 @@ mood = input()
 
 if mood.lower() == 'good':
     print("I'm so glad to hear that, would you like me to read you a happy poem?")
+elif mood.lower() == 'bad':
+    print("I'm so sorru, I can try to cheer you up with a powerful quote if you want?\n")
