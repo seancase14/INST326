@@ -10,3 +10,7 @@ if mood.lower() == 'good':
         print("Okay, have a great day!\n")
 elif mood.lower() == 'bad':
     x = input("I'm so sorru, I can try to cheer you up with a powerful quote if you want?\n")
+    if x.lower() == 'yes':
+        print("Here is a quote that you should alwasy remember; 'You're never too old to enjoy a sunset.' - Sassy the Sasquatch")
+    else:
+        print("I'm sorru, hope you feel better soon!")
