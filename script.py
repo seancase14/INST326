@@ -1,6 +1,4 @@
-print("how is it going?\n")
-
-mood = input()
+mood = input("how is it going?\n")
 
 if mood.lower() == 'good':
     x = input("I'm so glad to hear that, would you like me to read you a happy poem?")
@@ -14,3 +12,4 @@ elif mood.lower() == 'bad':
         print("Here is a quote that you should alwasy remember; 'You're never too old to enjoy a sunset.' - Sassy the Sasquatch")
     else:
         print("I'm sorru, hope you feel better soon!")
+print("Goodbye!")
